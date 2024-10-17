@@ -51,6 +51,18 @@ a {
     color: white;
     border-radius: 40px;
 }
+
+.buttons button:hover {
+    background-color: transparent;
+    border: 2px solid #1B4BF5;
+    color: #1B4BF5;
+}
 #cart {
     background-color: #DA1313;
+}
+
+#cart:hover {
+    background-color: transparent;
+    color: #DA1313;
+    border: 2px solid #DA1313;
 }
