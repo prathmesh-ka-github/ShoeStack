@@ -1,5 +1,5 @@
 # ShoeStack
-
+![Shoestack](./ShoeStack.png)
 
 ### Installation instructions.  
 Follow these instructions and run the React app on your local machine.

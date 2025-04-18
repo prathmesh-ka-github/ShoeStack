@@ -47,6 +47,7 @@ a {
 .buttons button {
     all: unset;
     background-color: #1B4BF5;
+    border: 2px solid #1B4BF5;
     padding: 10px;
     color: white;
     border-radius: 40px;
@@ -59,6 +60,7 @@ a {
 }
 #cart {
     background-color: #DA1313;
+    border: 2px solid #DA1313;
 }
 
 #cart:hover {

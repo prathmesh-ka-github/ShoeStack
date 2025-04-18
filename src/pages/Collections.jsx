@@ -12,9 +12,10 @@ function Collections() {
         <div className="collections-container">
             <div className="collections-heading">Browse our collections.</div>
             <div className="row">
-                { PRODUCTS.map((product) => (
-                    <Card data = { product } />
-                ))
+                {
+                    PRODUCTS.map((product) => (
+                        <Card data = { product } />
+                    ))
                 }
 
 
