@@ -10,22 +10,22 @@ import Wishlist from './pages/Wishlist.jsx'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App() {
-  return (  
-    <Router>
+    return (
+        <Router>
 
-        <Navbar/>
-        <Routes>
-            <Route exact path='/' element={<Landingpage/>}></Route>
-            <Route exact path='/about' element={<About/>}></Route>
-            <Route exact path='/bag' element={<Bag/>}></Route>
-            <Route exact path='/collections' element={<Collections/>}></Route>
-            <Route exact path='/wishlist' element={<Wishlist/>}></Route>
-        </Routes>
+            <Navbar />
+            <Routes>
+                <Route exact path='/' element={<Landingpage />}></Route>
+                <Route exact path='/about' element={<About />}></Route>
+                <Route exact path='/bag' element={<Bag />}></Route>
+                <Route exact path='/collections' element={<Collections />}></Route>
+                <Route exact path='/wishlist' element={<Wishlist />}></Route>
+            </Routes>
 
-        {/* <Footer/> */}
+            {/* <Footer/> */}
 
-    </Router>
-  )
+        </Router>
+    )
 }
 
 export default App

@@ -3,6 +3,18 @@ import './styles/card.css';
 
 function Card(props) {
     const {id, productName, price, productImage} = props.data
+    function addtocart(id) {
+        let existingcart = localStorage.getItem('cart')
+        if (existingcart == null) {
+            var cartarray = []
+        }
+        else {
+            var cartarray = existingcart.split(',')
+        }
+        cartarray.push(id)
+        localStorage.setItem('cart', cartarray)
+        console.log(cartarray)
+    }
     return (
         <div className="card-container">
             <div className="card-img">
@@ -11,8 +23,8 @@ function Card(props) {
             <div className="card-name">{productName}</div>
             <div className="card-price">{price}</div>
             <div className="buttons">
-                <button id="cart">Add to cart</button>
-                <button id="wishlist">Add to wishlist</button>
+                <button onClick={() => addtocart(id)} id="cart">Add to cart</button>
+                <button onClick={() => localStorage.setItem('wishlist',id)} id="wishlist">Add to wishlist</button>
             </div>
         </div>
     )

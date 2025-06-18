@@ -6,6 +6,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Kodchasan";
+
 }
 
 .bag-heading {
@@ -13,4 +15,73 @@
     font-size: 50px;
     margin: 20px;
     color: white;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.bag-item-container {
+    display: flex;
+    width: 70%;
+    padding: 50px 0px;
+    border-radius: 40px;
+    justify-content: space-evenly;
+    background-color: white;
+    color: black;
+    margin: 20px 0px;
+}
+.bag-item-container:hover .bag-item-img img{
+    transform: translateX(20px);
+}
+.bag-item-img img {
+    width: 300px;
+    transition: all 400ms;
+}
+.bag-item-heading {
+    font-size: 30px;
+    margin: 10px 0px;
+}
+.bag-item-price {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.bag-item-buttons {
+    font-size: 20px;
+    margin: 10px 10px 0px 0px;
+}
+.bag-item-deletebtn {
+    all: unset;
+    margin: 10px 20px 0px 0px;
+    background-color: #DA1313;
+    border: 2px solid #DA1313;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.bag-item-deletebtn:hover {
+    background-color: transparent;
+    color: #DA1313;
+    border: 2px solid #DA1313;
+}
+.bag-item-wishlistbtn {
+    all: unset;
+    margin: 10px 20px 0px 0px;
+    background-color: #1B4BF5;
+    border: 2px solid #1B4BF5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.bag-item-wishlistbtn:hover {
+    background-color: transparent;
+    border: 2px solid #1B4BF5;
+    color: #1B4BF5;
 }
