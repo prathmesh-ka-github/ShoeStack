@@ -1,17 +1,16 @@
-# ShoeStack
+# <img width="12" src="./public/shoestacklogo.png"/> ShoeStack
 
 Welcome to ShoeStack – your ultimate destination for trend-forward footwear. Designed with the modern generation in mind. Our store blends cutting-edge aesthetics with comfort and sustainability. Whether you're chasing streetwear vibes, minimal chic, or bold statement looks, we’ve got the perfect pair for every mood, move, and moment.
 
-This webapp is currently under development stage and will be deployed soon!
+## https://shoe-stackk.vercel.app
+This webapp is deployed on vercel!
 
+Preview screenshots -
 ![ShoeStack](image.png)
 
 ## Tech Stack used - 
 
-<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> 
-<a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> 
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> 
-<a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://github.com/prathmesh-ka-github/prathmesh-ka-github/assets/103999608/adf769c2-5b4e-4dd7-bd75-41e8b9a2bf4c" alt="express" width="35" height="40"/> </a> 
+![Mern stack](image-1.png)
 
 ### Installation instructions.  
 
