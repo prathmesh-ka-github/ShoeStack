@@ -38,4 +38,6 @@ TODO :
 1. Add a alert that product has been added to cart/wishlist.
 1. Add more products to the catalogue.
 1. Add a search functionality in catalogue.
-1. 
+1. Add About page
+1. Add Contact page
+1.
