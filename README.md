@@ -8,11 +8,18 @@ This webapp is deployed on vercel!
 Preview screenshots -
 ![ShoeStack](image.png)
 
-## Tech Stack used - 
+## 🔨 Dependencies -
+```
+1. react - v18.3.1
+2. react-dom - v18.3.1
+3. react-router-dom - v6.26.2
+```
+
+## 💻 Tech Stack used - 
 
 ![Mern stack](image-1.png)
 
-### Installation instructions.  
+## ⚡ Installation instructions.  
 
 Follow these instructions and run the React app on your local machine.
 1. Clone the repository.  
@@ -29,7 +36,7 @@ Follow these instructions and run the React app on your local machine.
 
 5. Open the localhost in the browser. Done!
 
-TODO :
+### 📃 TODO :
 
 1. ~~Add a background gradient animation for landing page~~
 1. ~~Add a onload animation for shoeimg and text.~~
